@@ -1,3 +1,4 @@
+FROM node:dubnium-alpine AS base
 RUN apk -U add curl
 WORKDIR /usr/src/app
 ENV PORT=80

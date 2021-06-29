@@ -17,4 +17,4 @@ COPY . /usr/src/app
 FROM base AS final
 WORKDIR /usr/src/app
 COPY --from=build /usr/src/app .
-CMD [ "npm", "start" ] 
+CMD [ "npm", "start" ]
